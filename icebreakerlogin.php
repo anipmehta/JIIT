@@ -5,6 +5,7 @@ $obj = json_decode($json,true);
 $enos = $obj['eno'];
 // print $enos;
 $passwords= $obj["password"];
+
 $dobs = $obj["dob"];
 $eno = urlencode($enos);
 $dob = urlencode($dobs);
